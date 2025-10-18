@@ -50,7 +50,11 @@ Thumbs.db
 *.temp
 *.log
 
-# Generated videos (optional - uncomment if you don't want to track video files)
-# *.mp4
-# *.avi
-# *.mov
+# Generated videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
