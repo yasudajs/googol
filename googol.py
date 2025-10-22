@@ -70,7 +70,7 @@ def update(frame):
         
         # 回転数を表示
         rotations = rotation_angles[i] / (2 * np.pi)
-        rotation_texts[i].set_text(f'{rotations:.1f} rotations')
+        rotation_texts[i].set_text(f'{rotations:.2f} rotations')
     
     return gear_markers + rotation_texts + [elapsed_text]
 
